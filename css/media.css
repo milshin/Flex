@@ -1,0 +1,30 @@
+@media only screen and (max-width: 768px){
+
+    .container{
+        text-align: center;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .position{
+        flex-direction: column;
+        align-items: center;
+    }
+    .position div{
+        margin: 0 35px 30px 44px;
+    }
+    .item-1, .item-2, .item-3, .item-4, .item-5, .bottom{
+        flex-direction: column;
+        align-items: center;
+    }
+    .item-1 div,.item-2 div, .item-3 div, .item-4 div, .item-5 div{
+        margin-right: 0;
+        padding-bottom: 20px;
+    }
+    .item-1:before, .item-2:before, .item-3:before, .item-4:before, .item-5:before{
+        top: 0;
+    }
+}
